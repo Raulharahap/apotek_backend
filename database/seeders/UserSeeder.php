@@ -10,57 +10,7 @@ class UserSeeder extends Seeder
 {
     public function run(): void
     {
-        $users = [
-            [
-                'name'     => 'Administrator',
-                'email'    => 'admin@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'admin',
-                'aktif'    => true,
-            ],
-            [
-                'name'     => 'Dr. Budi Santoso',
-                'email'    => 'dokter@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'dokter',
-                'aktif'    => true,
-            ],
-            [
-                'name'     => 'Siti Rahayu, A.Md.Kep',
-                'email'    => 'perawat@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'perawat',
-                'aktif'    => true,
-            ],
-            [
-                'name'     => 'Dewi Kusuma, S.Farm',
-                'email'    => 'apoteker@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'apoteker',
-                'aktif'    => true,
-            ],
-            [
-                'name'     => 'Andi Wijaya',
-                'email'    => 'kasir@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'kasir',
-                'aktif'    => true,
-            ],
-            [
-                'name'     => 'Rina Marlina',
-                'email'    => 'pendaftaran@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'front_office',
-                'aktif'    => true,
-            ],
-            [
-                'name'     => 'Dr. Ahmad Fauzi (Pimpinan)',
-                'email'    => 'pimpinan@remedis.id',
-                'password' => Hash::make('password'),
-                'role'     => 'pimpinan',
-                'aktif'    => true,
-            ],
-        ];
+        $users = [];
 
         foreach ($users as $user) {
             User::updateOrCreate(
