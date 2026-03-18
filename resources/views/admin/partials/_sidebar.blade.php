@@ -24,7 +24,7 @@
                 </a>
             </li>
 
-            <li class="sidebar-item {{ request()->is('admin/pasien*') ? 'active' : '' }}">
+            <li class="sidebar-item {{ request()->is('admin/category*') ? 'active' : '' }}">
                 <a href="{{ url('/admin/category') }}" class='sidebar-link'>
                     <i class="bi bi-folder"></i>
                     <span>Kategori</span>
