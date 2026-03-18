@@ -1,0 +1,41 @@
+// ini standar yang saya pakai, biasanya jika di vscode atau antigravity, tekan ctlr + shift + p lalu ketik user settings json, tekan enter
+// nanti keluar file json konfigurasi editor vscode atau antigravity,
+// copy yang di dalam tanda kurung saja,
+
+//gunakan konfig ini supaya format kita sama
+
+{
+  // --- Font & Editor ---
+  "editor.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "400",
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\r\n",
+
+  // --- Konfigurasi PHP & Intelephense ---
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+  "intelephense.environment.phpVersion": "8.4",
+  "intelephense.format.enable": true,
+  "intelephense.diagnostics.undefinedProperties": true,
+
+  // --- Konfigurasi Spesifik Bahasa ---
+  "[php]": {
+    "php.validate.executablePath": "C:\\Users\\dell\\scoop\\apps\\php\\current\\php.exe",
+    "php.suggest.basic": false, // Nonaktifkan saran bawaan jika pakai Intelephense
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[javascript]": {
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

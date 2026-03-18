@@ -1,0 +1,72 @@
+KEBIJAKAN PENGEMBANGAN PROYEK REMEDIS
+=====================================
+
+1. STRUKTUR FOLDER & FILE
+-------------------------
+- Nama Folder: Menggunakan kebab-case (huruf kecil dengan tanda sambung).
+  Contoh: resources/views/landing-page, public/assets/custom-css
+- Nama File View (Blade): Menggunakan snake_case atau kebab-case, konsisten di dalam modul yang sama.
+  Contoh: user_profile.blade.php atau user-profile.blade.php
+- Nama File Class (PHP): PascalCase.
+  Contoh: UserController.php, PatientModel.php
+- Nama File Asset (JS/CSS/Images): kebab-case atau snake_case.
+  Contoh: app-theme.css, main-script.js, logo-remedis.png
+
+2. PENAMAAN (NAMING CONVENTION)
+-------------------------------
+A. PHP (Laravel)
+   - Controller: PascalCase + Suffix 'Controller'.
+     Contoh: AuthController, PatientController
+   - Model: PascalCase, Singular (Tunggal).
+     Contoh: User, Patient, MedicalRecord
+   - Method/Function: camelCase.
+     Contoh: store(), updateProfile(), getActiveUsers()
+   - Variable: camelCase.
+     Contoh: $userData, $patientId, $isValid
+   - Database Table: snake_case, Plural (Jamak).
+     Contoh: users, patients, medical_records
+   - Database Column: snake_case.
+     Contoh: first_name, is_active, created_at
+
+B. JAVASCRIPT (JS)
+   - Variable: camelCase.
+     Contoh: let userName = 'John'; const maxItems = 10;
+   - Function: camelCase.
+     Contoh: function calculateTotal() {}, const submitForm = () => {}
+   - Class: PascalCase.
+     Contoh: class AuthService {}
+   - Constant: UPPER_SNAKE_CASE.
+     Contoh: const API_BASE_URL = '...';
+
+C. CSS / HTML
+   - Class: kebab-case.
+     Contoh: .btn-primary, .nav-item, .text-center
+   - ID: kebab-case (dianjurkan) atau camelCase.
+     Contoh: #main-header, #submitBtn
+   - File CSS/SCSS: kebab-case.
+     Contoh: style.css, custom-theme.css
+
+3. ATURAN PENULISAN KODE (CODING STYLE)
+---------------------------------------
+- Indentasi: Gunakan 4 spasi (bukan tab) untuk PHP. Gunakan 2 atau 4 spasi untuk JS/HTML (pilih salah satu dan konsisten).
+- Komentar: Tambahkan komentar pada fungsi yang kompleks atau logika bisnis yang krusial.
+- Kebersihan: 
+  - Hapus variable yang tidak digunakan (unused variables).
+  - Hapus debug code (dd, var_dump, console.log) sebelum kode dianggap selesai/commit.
+- Formatting: Gunakan fitur auto-format IDE (Prettier/PHP-CS-Fixer) agar kode rapi dan seragam.
+
+4. GIT / VERSION CONTROL
+------------------------
+- Pesan Commit: Gunakan Bahasa Indonesia atau Inggris yang jelas. Format: [Tipe] Deskripsi singkat.
+  Tipe commit:
+  - [Feat]: Fitur baru
+  - [Fix]: Perbaikan bug
+  - [Refactor]: Perubahan kode tanpa mengubah fitur (rapi-rapi)
+  - [Style]: Perubahan tampilan/CSS
+  - [Docs]: Dokumentasi
+  Contoh: "[Fix] Memperbaiki bug pada navbar login", "[Feat] Menambahkan fitur data pasien"
+
+5. LAIN-LAIN
+------------
+- Bahasa Kode: Gunakan Bahasa Inggris untuk penamaan variabel, fungsi, class, dan tabel database agar universal.
+- Bahasa Komentar: Boleh Bahasa Indonesia atau Inggris, asalkan jelas.

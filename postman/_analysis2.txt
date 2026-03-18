@@ -1,0 +1,1044 @@
+============================================================
+FHIR RESOURCES BY COLLECTION
+============================================================
+
+=== FHIR Resource - Contoh Penggunaan ===
+  POST   Account
+  PATCH  Account
+  PUT    AllergyIntolerance
+  POST   AllergyIntolerance
+  PATCH  AllergyIntolerance
+  GET    AllergyIntolerance
+  PATCH  CarePlan
+  POST   CarePlan
+  GET    CarePlan
+  PUT    CarePlan
+  POST   ChargeItem
+  GET    ChargeItem
+  POST   Claim
+  GET    Claim
+  POST   ClaimResponse
+  PATCH  ClinicalImpression
+  GET    ClinicalImpression
+  PUT    ClinicalImpression
+  POST   ClinicalImpression
+  PATCH  Composition
+  GET    Composition
+  PUT    Composition
+  POST   Composition
+  POST   Condition
+  PATCH  Condition
+  GET    Condition
+  PUT    Condition
+  POST   Coverage
+  GET    Coverage
+  POST   CoverageEligibilityRequest
+  GET    CoverageEligibilityRequest
+  POST   CoverageEligibilityResponse
+  GET    CoverageEligibilityResponse
+  PATCH  DiagnosticReport
+  GET    DiagnosticReport
+  PUT    DiagnosticReport
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  PATCH  Encounter
+  GET    Encounter
+  PATCH  EpisodeOfCare
+  GET    EpisodeOfCare
+  PUT    EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  PUT    ImagingStudy
+  POST   ImagingStudy
+  PATCH  Immunization
+  GET    Immunization
+  PUT    Immunization
+  POST   Immunization
+  POST   Invoice
+  GET    Location
+  PUT    Location
+  PATCH  Location
+  POST   Location
+  PUT    Medication
+  POST   Medication
+  PATCH  Medication
+  GET    Medication
+  PUT    MedicationDispense
+  POST   MedicationDispense
+  PATCH  MedicationDispense
+  GET    MedicationDispense
+  GET    MedicationRequest
+  PUT    MedicationRequest
+  POST   MedicationRequest
+  PATCH  MedicationRequest
+  PUT    Observation
+  POST   Observation
+  PATCH  Observation
+  GET    Observation
+  POST   Organization
+  PATCH  Organization
+  GET    Organization
+  PUT    Organization
+  POST   Patient
+  PATCH  Patient
+  GET    Patient
+  GET    PaymentNotice
+  POST   PaymentNotice
+  POST   PaymentReconciliation
+  GET    PaymentReconciliation
+  GET    Practitioner
+  POST   Procedure
+  PATCH  Procedure
+  GET    Procedure
+  PUT    Procedure
+  POST   QuestionnaireResponse
+  GET    QuestionnaireResponse
+  PUT    QuestionnaireResponse
+  POST   RelatedPerson
+  PATCH  RelatedPerson
+  GET    RelatedPerson
+  PUT    RelatedPerson
+  PATCH  ServiceRequest
+  POST   ServiceRequest
+  GET    ServiceRequest
+  PUT    ServiceRequest
+  PUT    Specimen
+  POST   Specimen
+  PATCH  Specimen
+  GET    Specimen
+
+=== Pelayanan - Farmasi ===
+  POST   Condition
+  POST   DocumentReference
+  GET    DocumentReference
+  POST   Encounter
+  PUT    Encounter
+  POST   Location
+  GET    Location
+  POST   MedicationDispense
+  GET    MedicationDispense
+  POST   MedicationRequest
+  GET    MedicationRequest
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+
+=== Pelayanan - IGD ===
+  POST   AllergyIntolerance
+  POST   CarePlan
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  GET    ImagingStudy
+  POST   Location
+  POST   Medication
+  POST   MedicationAdministration
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Pelayanan - Rawat Inap ===
+  POST   AllergyIntolerance
+  POST   CarePlan
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Composition
+  PUT    Condition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  GET    ImagingStudy
+  PATCH  Location
+  POST   Location
+  POST   Medication
+  POST   MedicationAdministration
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   NutritionOrder
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Pelayanan - Rawat Jalan ===
+  POST   AllergyIntolerance
+  POST   CarePlan
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  GET    ImagingStudy
+  POST   Location
+  POST   Medication
+  POST   MedicationAdministration
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   NutritionOrder
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Antenatal Care (ANC) ===
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  POST   Immunization
+  POST   Location
+  POST   Medication
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Anthrax ===
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    ImagingStudy
+  POST   Location
+  POST   MedicationAdministration
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  PATCH  Patient
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Geriatri (Kesehatan Lansia) ===
+  POST   AllergyIntolerance
+  POST   CarePlan
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Gigi ===
+  POST   AllergyIntolerance
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    ImagingStudy
+  POST   Location
+  POST   Medication
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Gizi ===
+  POST   AllergyIntolerance
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  POST   Immunization
+  GET    Location
+  PATCH  Location
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   NutritionOrder
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  GET    RelatedPerson
+  POST   RelatedPerson
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - HIV ===
+  POST   Condition
+  POST   DiagnosticReport
+  POST   Encounter
+  PUT    Encounter
+  POST   EpisodeOfCare
+  GET    EpisodeOfCare
+  POST   Location
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Imunisasi ===
+  POST   Condition
+  POST   Encounter
+  PUT    Encounter
+  POST   Immunization
+  PATCH  Location
+  PUT    Location
+  POST   Location
+  GET    Location
+  POST   Observation
+  POST   Organization
+  GET    Organization
+  PUT    Organization
+  PATCH  Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+
+=== Use Case - Imunisasi Covid 19 ===
+  POST   Condition
+  POST   Encounter
+  PUT    Encounter
+  POST   Immunization
+  POST   Location
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+
+=== Use Case - Intranatal Care (INC) ===
+  POST   AllergyIntolerance
+  POST   Condition
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  PATCH  Location
+  POST   Location
+  POST   Medication
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+
+=== Use Case - Kematian Maternal dan Perinatal ===
+  POST   Composition
+  POST   Condition
+  POST   Encounter
+  GET    Encounter
+  PUT    Encounter
+  POST   Location
+  POST   Observation
+  POST   Organization
+  PATCH  Patient
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   QuestionnaireResponse
+
+=== Use Case - MTBS Prioritas ===
+  POST   Condition
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    Location
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  GET    RelatedPerson
+  POST   RelatedPerson
+  POST   ServiceRequest
+
+=== Use Case - Modul Klaim (Asuransi Swasta) ===
+  PATCH  Account
+  POST   Account
+  POST   AllergyIntolerance
+  POST   BillingStatus
+  POST   CarePlan
+  POST   ChargeItem
+  GET    ChargeItem
+  POST   ChargeItemResponse
+  POST   Claim
+  GET    Claim
+  GET    ClaimResponse
+  POST   ClaimResponse
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Communication
+  POST   CommunicationRequest
+  POST   Composition
+  POST   Condition
+  GET    Coverage
+  PUT    Coverage
+  POST   Coverage
+  GET    CoverageEligibilityRequest
+  POST   CoverageEligibilityRequest
+  POST   CoverageEligibilityResponse
+  GET    CoverageEligibilityResponse
+  POST   DiagnosticReport
+  PUT    Encounter
+  PATCH  Encounter
+  POST   Encounter
+  GET    Encounter
+  GET    EpisodeOfCare
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  GET    ImagingStudy
+  POST   Invoice
+  PATCH  Location
+  POST   Location
+  POST   MedicationAdministration
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   NutritionOrder
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    PaymentNotice
+  POST   PaymentNotice
+  GET    PaymentReconciliation
+  POST   PaymentReconciliation
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Modul Klaim (BPJS-K) ===
+  POST   Account
+  POST   AllergyIntolerance
+  POST   CarePlan
+  POST   ChargeItem
+  POST   Claim
+  GET    Claim
+  GET    ClaimResponse
+  POST   ClaimResponse
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  GET    Coverage
+  POST   Coverage
+  POST   DiagnosticReport
+  PUT    Encounter
+  PATCH  Encounter
+  POST   Encounter
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  GET    ImagingStudy
+  POST   Invoice
+  PATCH  Location
+  POST   Location
+  POST   Medication
+  POST   MedicationAdministration
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   NutritionOrder
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   PurificationDecision
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Neonatus ===
+  POST   AllergyIntolerance
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  PATCH  Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  POST   Immunization
+  GET    Location
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Pelayanan Kesehatan Peduli Remaja (PKPR) Luar Gedung ===
+  POST   Condition
+  POST   Encounter
+  PUT    Encounter
+  POST   Location
+  GET    Location
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  GET    Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+
+=== Use Case - Postnatal Care (PNC) ===
+  POST   AllergyIntolerance
+  POST   CarePlan
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  POST   Location
+  POST   Medication
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Registrasi Jantung ===
+  POST   AllergyIntolerance
+  GET    AllergyIntolerance
+  POST   CarePlan
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  PATCH  Location
+  POST   Location
+  POST   Medication
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  GET    ServiceRequest
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Registrasi Kanker ===
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  PATCH  Location
+  POST   Location
+  POST   Medication
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Registrasi Mata ===
+  POST   AllergyIntolerance
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+  POST   VisionPrescription
+
+=== Use Case - Registrasi Stroke ===
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  PATCH  Location
+  POST   Location
+  POST   Medication
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RelatedPerson
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Registrasi Telinga ===
+  POST   AllergyIntolerance
+  POST   CarePlan
+  PATCH  ClinicalImpression
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  POST   FamilyMemberHistory
+  PUT    Goal
+  POST   Goal
+  GET    ImagingStudy
+  POST   Location
+  POST   MedicationAdministration
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   RiskAssessment
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Registrasi Uronefrologi ===
+  POST   CarePlan
+  POST   ClinicalImpression
+  POST   Composition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  GET    Location
+  POST   Location
+  POST   Medication
+  GET    MedicationDispense
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Skrining Hipotiroid Kongenital (SHK) ===
+  GET    Condition
+  POST   Condition
+  GET    DiagnosticReport
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  POST   Location
+  GET    MedicationStatement
+  POST   Observation
+  GET    Observation
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  GET    Procedure
+  GET    RelatedPerson
+  GET    ServiceRequest
+  POST   ServiceRequest
+  GET    Specimen
+  PATCH  Specimen
+  POST   Specimen
+
+=== Use Case - Skrining PTM ===
+  POST   Composition
+  GET    Condition
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  GET    Location
+  POST   Location
+  POST   Medication
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  GET    RelatedPerson
+  POST   RelatedPerson
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Tuberkulosis ===
+  POST   AllergyIntolerance
+  GET    CarePlan
+  PATCH  CarePlan
+  POST   CarePlan
+  POST   Condition
+  GET    DiagnosticReport
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    EpisodeOfCare
+  PATCH  EpisodeOfCare
+  POST   EpisodeOfCare
+  GET    ImagingStudy
+  POST   Immunization
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  GET    Observation
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  GET    QuestionnaireResponse
+  GET    ServiceRequest
+  POST   ServiceRequest
+  GET    Specimen
+  PATCH  Specimen
+  POST   Specimen
+
+=== Use Case - Tumbuh Kembang ===
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  GET    ImagingStudy
+  GET    Location
+  POST   Location
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  GET    RelatedPerson
+  POST   RelatedPerson
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Upaya Berhenti Merokok (UBM) ===
+  GET    CarePlan
+  PATCH  CarePlan
+  POST   CarePlan
+  POST   Condition
+  POST   DiagnosticReport
+  PUT    Encounter
+  POST   Encounter
+  PATCH  Goal
+  POST   Goal
+  GET    Goal
+  GET    Location
+  POST   Location
+  POST   MedicationRequest
+  POST   MedicationStatement
+  POST   Observation
+  GET    Organization
+  POST   Organization
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+  POST   Specimen
+
+=== Use Case - Zoonosis- Gigitan Hewan Penular Rabies (GHPR)-Rabies ===
+  POST   Condition
+  POST   Encounter
+  PUT    Encounter
+  POST   Immunization
+  GET    Immunization
+  POST   Location
+  POST   MedicationAdministration
+  POST   MedicationDispense
+  POST   MedicationRequest
+  POST   Observation
+  POST   Organization
+  PATCH  Patient
+  POST   Patient
+  GET    Patient
+  GET    Practitioner
+  POST   Procedure
+  POST   QuestionnaireResponse
+  POST   ServiceRequest
+
+
+============================================================
+UNIQUE FHIR RESOURCES (ALL COLLECTIONS)
+============================================================
+  Account
+  AllergyIntolerance
+  BillingStatus
+  CarePlan
+  ChargeItem
+  ChargeItemResponse
+  Claim
+  ClaimResponse
+  ClinicalImpression
+  Communication
+  CommunicationRequest
+  Composition
+  Condition
+  Coverage
+  CoverageEligibilityRequest
+  CoverageEligibilityResponse
+  DiagnosticReport
+  DocumentReference
+  Encounter
+  EpisodeOfCare
+  FamilyMemberHistory
+  Goal
+  ImagingStudy
+  Immunization
+  Invoice
+  Location
+  Medication
+  MedicationAdministration
+  MedicationDispense
+  MedicationRequest
+  MedicationStatement
+  NutritionOrder
+  Observation
+  Organization
+  Patient
+  PaymentNotice
+  PaymentReconciliation
+  Practitioner
+  Procedure
+  PurificationDecision
+  QuestionnaireResponse
+  RelatedPerson
+  RiskAssessment
+  ServiceRequest
+  Specimen
+  VisionPrescription
+
+
+============================================================
+REQUEST BODY KEYS PER RESOURCE (for schema hints)
+============================================================
+  Account: ['coverage', 'description', 'guarantor', 'name', 'owner', 'resourceType', 'servicePeriod', 'status', 'subject', 'type']
+  AllergyIntolerance: ['category', 'clinicalStatus', 'code', 'encounter', 'id', 'identifier', 'patient', 'recordedDate', 'recorder', 'resourceType', 'verificationStatus']
+  BillingStatus: ['id', 'identifier', 'insurer', 'recipient', 'request', 'resourceType', 'status', 'subject']
+  CarePlan: ['activity', 'author', 'category', 'created', 'description', 'encounter', 'goal', 'id', 'intent', 'partOf', 'period', 'resourceType', 'status', 'subject', 'title']
+  ChargeItem: ['account', 'chargeItem', 'code', 'context', 'coverage', 'encounter', 'excess', 'extension', 'id', 'identifier', 'occurrencePeriod', 'performer', 'quantity', 'resourceType', 'status', 'subject', 'total']
+  ChargeItemResponse: ['chargeItem', 'coverage', 'encounter', 'excess', 'factorOverride', 'id', 'identifier', 'overrideReason', 'payor', 'quantity', 'resourceType', 'status', 'subject', 'total', 'unitPriceOverride']
+  Claim: ['billablePeriod', 'created', 'diagnosis', 'enterer', 'extension', 'facility', 'identifier', 'insurance', 'insurer', 'patient', 'payee', 'priority', 'procedure', 'provider', 'resourceType', 'status', 'subType', 'supportingInfo', 'total', 'type', 'use']
+  ClaimResponse: ['adjudication', 'created', 'disposition', 'identifier', 'insurer', 'item', 'outcome', 'patient', 'payeeType', 'payment', 'request', 'requestor', 'resourceType', 'status', 'subType', 'total', 'type', 'use']
+  ClinicalImpression: ['assessor', 'code', 'date', 'description', 'effectiveDateTime', 'encounter', 'finding', 'id', 'identifier', 'investigation', 'problem', 'prognosisCodeableConcept', 'resourceType', 'status', 'subject', 'summary']
+  Communication: ['about', 'basedOn', 'inResponseTo', 'payload', 'recipient', 'resourceType', 'sender', 'status']
+  CommunicationRequest: ['about', 'category', 'payload', 'recipient', 'resourceType', 'sender', 'status']
+  Composition: ['attester', 'author', 'category', 'contained', 'custodian', 'date', 'encounter', 'event', 'id', 'identifier', 'resourceType', 'section', 'status', 'subject', 'title', 'type']
+  Condition: ['abatementDateTime', 'bodySite', 'category', 'clinicalStatus', 'code', 'encounter', 'evidence', 'id', 'identifier', 'note', 'onsetAge', 'onsetDateTime', 'onsetPeriod', 'recordedDate', 'recorder', 'resourceType', 'stage', 'subject', 'verificationStatus']
+  Coverage: ['beneficiary', 'class', 'extension', 'id', 'identifier', 'payor', 'policyHolder', 'resourceType', 'status', 'subscriber', 'subscriberId', 'type']
+  CoverageEligibilityRequest: ['contained', 'created', 'enterer', 'facility', 'identifier', 'insurance', 'insurer', 'patient', 'priority', 'provider', 'purpose', 'resourceType', 'servicedDate', 'status', 'supportingInfo']
+  CoverageEligibilityResponse: ['created', 'disposition', 'extension', 'identifier', 'insurance', 'insurer', 'outcome', 'patient', 'purpose', 'request', 'requestor', 'resourceType', 'status']
+  DiagnosticReport: ['basedOn', 'category', 'code', 'conclusion', 'conclusionCode', 'effectiveDateTime', 'encounter', 'id', 'identifier', 'imagingStudy', 'issued', 'performer', 'resourceType', 'result', 'resultsInterpreter', 'specimen', 'status', 'subject']
+  DocumentReference: ['author', 'category', 'content', 'context', 'custodian', 'date', 'description', 'docStatus', 'identifier', 'resourceType', 'status', 'subject', 'type']
+  Encounter: ['account', 'basedOn', 'class', 'classHistory', 'diagnosis', 'episodeOfCare', 'hospitalization', 'id', 'identifier', 'length', 'location', 'participant', 'period', 'reasonCode', 'resourceType', 'serviceProvider', 'serviceType', 'status', 'statusHistory', 'subject', 'type']
+  EpisodeOfCare: ['careManager', 'diagnosis', 'id', 'identifier', 'managingOrganization', 'meta', 'patient', 'period', 'resourceType', 'status', 'statusHistory', 'type']
+  FamilyMemberHistory: ['condition', 'date', 'deceasedBoolean', 'patient', 'relationship', 'resourceType', 'status']
+  Goal: ['achievementStatus', 'addresses', 'category', 'description', 'expressedBy', 'id', 'lifecycleStatus', 'outcomeCode', 'resourceType', 'startDate', 'statusDate', 'subject', 'target']
+  ImagingStudy: ['basedOn', 'description', 'id', 'identifier', 'modality', 'numberOfInstances', 'numberOfSeries', 'resourceType', 'series', 'started', 'status', 'subject']
+  Immunization: ['doseQuantity', 'encounter', 'expirationDate', 'id', 'location', 'lotNumber', 'occurrenceDateTime', 'patient', 'performer', 'primarySource', 'protocolApplied', 'reaction', 'reasonCode', 'recorded', 'reportOrigin', 'resourceType', 'route', 'site', 'status', 'statusReason', 'vaccineCode']
+  Invoice: ['account', 'date', 'issuer', 'lineItem', 'resourceType', 'status', 'subject', 'totalNet']
+  Location: ['address', 'description', 'extension', 'id', 'identifier', 'managingOrganization', 'mode', 'name', 'operationalStatus', 'partOf', 'physicalType', 'position', 'resourceType', 'status', 'telecom', 'type']
+  Medication: ['batch', 'code', 'extension', 'form', 'id', 'identifier', 'ingredient', 'manufacturer', 'meta', 'resourceType', 'status']
+  MedicationAdministration: ['category', 'contained', 'context', 'dosage', 'effectivePeriod', 'medicationReference', 'partOf', 'performer', 'reasonCode', 'request', 'resourceType', 'status', 'subject']
+  MedicationDispense: ['authorizingPrescription', 'category', 'contained', 'context', 'daysSupply', 'dosageInstruction', 'id', 'identifier', 'location', 'medicationReference', 'performer', 'quantity', 'receiver', 'resourceType', 'status', 'subject', 'substitution', 'whenHandedOver', 'whenPrepared']
+  MedicationRequest: ['authoredOn', 'basedOn', 'category', 'contained', 'courseOfTherapyType', 'dispenseRequest', 'dosageInstruction', 'encounter', 'id', 'identifier', 'intent', 'medicationReference', 'note', 'priority', 'reasonCode', 'reasonReference', 'requester', 'resourceType', 'status', 'subject']
+  MedicationStatement: ['category', 'contained', 'context', 'dateAsserted', 'dosage', 'effectiveDateTime', 'identifier', 'informationSource', 'medicationCodeableConcept', 'medicationReference', 'note', 'resourceType', 'status', 'subject']
+  NutritionOrder: ['dateTime', 'encounter', 'enteralFormula', 'excludeFoodModifier', 'identifier', 'intent', 'oralDiet', 'orderer', 'patient', 'resourceType', 'status']
+  Observation: ['basedOn', 'bodySite', 'category', 'code', 'component', 'contained', 'dataAbsentReason', 'derivedFrom', 'effectiveDateTime', 'encounter', 'focus', 'hasMember', 'id', 'identifier', 'interpretation', 'issued', 'method', 'note', 'partOf', 'performer', 'referenceRange', 'resourceType', 'specimen', 'status', 'subject', 'valueBoolean', 'valueCodeableConcept', 'valueDateTime', 'valueInteger', 'valueQuantity', 'valueRatio', 'valueString', 'valueTime']
+  Organization: ['active', 'address', 'id', 'identifier', 'name', 'partOf', 'resourceType', 'telecom', 'type']
+  Patient: ['active', 'address', 'birthDate', 'communication', 'contact', 'deceasedBoolean', 'extension', 'gender', 'identifier', 'maritalStatus', 'meta', 'multipleBirthInteger', 'name', 'resourceType', 'telecom']
+  PaymentNotice: ['amount', 'created', 'payee', 'payment', 'paymentDate', 'paymentStatus', 'provider', 'recipient', 'request', 'resourceType', 'response', 'status']
+  PaymentReconciliation: ['created', 'detail', 'disposition', 'outcome', 'paymentAmount', 'paymentDate', 'paymentIssuer', 'period', 'processNote', 'requestor', 'resourceType', 'status']
+  Procedure: ['basedOn', 'bodySite', 'category', 'code', 'encounter', 'id', 'identifier', 'location', 'note', 'performedDateTime', 'performedPeriod', 'performer', 'reasonCode', 'recorder', 'resourceType', 'status', 'statusReason', 'subject', 'usedCode', 'usedReference']
+  PurificationDecision: ['claimResponse', 'created', 'id', 'identifier', 'insurer', 'provider', 'resourceType', 'status']
+  QuestionnaireResponse: ['author', 'authored', 'encounter', 'id', 'identifier', 'item', 'questionnaire', 'resourceType', 'source', 'status', 'subject']
+  RelatedPerson: ['active', 'address', 'birthDate', 'communication', 'extension', 'gender', 'id', 'identifier', 'meta', 'name', 'patient', 'relationship', 'resourceType', 'telecom']
+  RiskAssessment: ['code', 'condition', 'encounter', 'mitigation', 'performer', 'prediction', 'reasonReference', 'resourceType', 'status', 'subject']
+  ServiceRequest: ['authoredOn', 'bodySite', 'category', 'code', 'contained', 'encounter', 'id', 'identifier', 'intent', 'locationCode', 'locationReference', 'note', 'occurrenceDateTime', 'orderDetail', 'patientInstruction', 'performer', 'priority', 'reasonCode', 'reasonReference', 'requester', 'resourceType', 'status', 'subject', 'supportingInfo']
+  Specimen: ['collection', 'condition', 'container', 'extension', 'id', 'identifier', 'processing', 'receivedTime', 'request', 'resourceType', 'status', 'subject', 'type']
+  VisionPrescription: ['created', 'dateWritten', 'encounter', 'lensSpecification', 'patient', 'prescriber', 'resourceType', 'status']

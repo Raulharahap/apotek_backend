@@ -1,0 +1,72 @@
+=== FHIR Resource - Contoh Penggunaan.postman_collection ===
+
+=== Pelayanan - Rawat Jalan.postman_collection ===
+
+=== Pelayanan - Rawat Inap.postman_collection ===
+
+=== Pelayanan - IGD.postman_collection ===
+
+=== Pelayanan - Farmasi.postman_collection ===
+
+=== Use Case - Antenatal Care (ANC).postman_collection ===
+
+=== Use Case - Intranatal Care (INC).postman_collection ===
+
+=== Use Case - Postnatal Care (PNC).postman_collection ===
+
+=== Use Case - Neonatus.postman_collection ===
+
+=== Use Case - Skrining Hipotiroid Kongenital (SHK).postman_collection ===
+
+=== Use Case - Kematian Maternal dan Perinatal.postman_collection ===
+
+=== Use Case - MTBS Prioritas.postman_collection ===
+
+=== Use Case - Imunisasi.postman_collection ===
+
+=== Use Case - Gizi.postman_collection ===
+
+=== Use Case - Tumbuh Kembang.postman_collection ===
+
+=== Use Case - Pelayanan Kesehatan Peduli Remaja (PKPR) Luar Gedung.postman_collection ===
+
+=== Use Case - Imunisasi Covid 19.postman_collection ===
+
+=== Use Case - Skrining PTM.postman_collection ===
+
+=== Use Case - Registrasi Kanker.postman_collection ===
+
+=== Use Case - Registrasi Jantung.postman_collection ===
+
+=== Use Case - Registrasi Stroke.postman_collection ===
+
+=== Use Case - Registrasi Uronefrologi.postman_collection ===
+
+=== Use Case - Gigi.postman_collection ===
+
+=== Use Case - Modul Klaim (Asuransi Swasta).postman_collection ===
+
+=== Use Case - Modul Klaim (BPJS-K).postman_collection ===
+
+=== Use Case - Registrasi Mata.postman_collection ===
+
+=== Use Case - Registrasi Telinga.postman_collection ===
+
+=== Use Case - Tuberkulosis.postman_collection ===
+
+=== Use Case - HIV.postman_collection ===
+
+=== Use Case - Geriatri (Kesehatan Lansia).postman_collection ===
+
+=== Use Case - Upaya Berhenti Merokok (UBM).postman_collection ===
+
+=== Use Case - Zoonosis- Gigitan Hewan Penular Rabies (GHPR)-Rabies.postman_collection ===
+
+=== Use Case - Anthrax.postman_collection ===
+
+=== Additional- Set-up DICOM Router.postman_collection ===
+
+=== Master Data API - APIGEE (v2.0) (PUBLIC).postman_collection ===
+
+=== Master Data API - KPTL.postman_collection ===
+

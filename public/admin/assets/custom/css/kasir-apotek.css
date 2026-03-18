@@ -1,0 +1,247 @@
+/* --- KASIR APOTEK - Royal Blue Theme --- */
+:root,
+[data-bs-theme="light"] {
+    --bs-primary: #2563eb !important;
+    --bs-primary-rgb: 37, 99, 235 !important;
+    --bs-link-color: #2563eb !important;
+    --bs-link-hover-color: #1d4ed8 !important;
+}
+
+/* --- Global Elements --- */
+.bg-primary {
+    background-color: #2563eb !important;
+}
+
+.text-primary {
+    color: #2563eb !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #2563eb;
+    --bs-btn-border-color: #2563eb;
+    --bs-btn-hover-bg: #1d4ed8;
+    --bs-btn-hover-border-color: #1d4ed8;
+    --bs-btn-active-bg: #1e40af;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #2563eb;
+    --bs-btn-border-color: #2563eb;
+    --bs-btn-hover-bg: #2563eb;
+}
+
+/* --- Sidebar Styling --- */
+.sidebar-wrapper .menu .sidebar-item.active>.sidebar-link {
+    background-color: rgba(37, 99, 235, 0.1) !important;
+    color: #2563eb !important;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active>.sidebar-link i,
+.sidebar-wrapper .menu .sidebar-item.active>.sidebar-link span,
+.sidebar-wrapper .menu .sidebar-item.active>.sidebar-link svg {
+    color: #2563eb !important;
+    fill: #2563eb !important;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active>.sidebar-link::before {
+    background-color: #2563eb !important;
+}
+
+/* --- Slim Navbar Styling --- */
+.navbar-top {
+    min-height: 55px !important;
+    height: 55px !important;
+    backdrop-filter: blur(10px);
+    background-color: rgba(var(--bs-body-bg-rgb), 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-bs-theme="dark"] .navbar-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Page Titles */
+.page-title h3 {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+/* Form & Pagination */
+.form-check-input:checked {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.page-item.active .page-link {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* --- PRODUCT CARD STYLING --- */
+.product-card {
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-container {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Overlay Gelap saat Hover (Biar Kotak Putih Lebih Jelas) */
+.product-card:hover .card-img-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px 15px 0 0;
+}
+
+/* Warna Teks Produk */
+[data-bs-theme="light"] .product-title {
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+[data-bs-theme="dark"] .product-title {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+[data-bs-theme="light"] .text-price {
+    color: #2563eb;
+}
+
+[data-bs-theme="dark"] .text-price {
+    color: #60a5fa !important;
+}
+
+/* --- PRODUCT CARD ACTION BUTTONS (ROUNDED SQUARE) --- */
+.product-action {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    transform: translate(-50%, -50%) !important;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.product-card:hover .product-action {
+    opacity: 1;
+}
+
+.btn-action-custom {
+    aspect-ratio: 1 / 1 !important;
+    width: 45px !important;
+    height: 45px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    /* Kotak Tumpul */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.2s ease-in-out;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-decoration: none;
+}
+
+.btn-action-custom:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+    background-color: #f8fafc !important;
+}
+
+.btn-action-custom i {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem !important;
+    line-height: 1 !important;
+    transform: translateY(-1px) !important;
+}
+
+.btn-action-custom.edit i {
+    color: #f59e0b;
+}
+
+.btn-action-custom.delete i {
+    color: #ef4444;
+}
+
+/* --- VIEW TOGGLE BUTTON (PERFECT CENTER) --- */
+.btn-view-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px;
+    height: 44px;
+    padding: 0 !important;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+    color: #64748b;
+    border-radius: 12px !important;
+    transition: all 0.2s ease;
+}
+
+.btn-view-toggle i {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem !important;
+    line-height: 1 !important;
+    transform: translateY(-1px);
+}
+
+.btn-view-toggle.active {
+    background-color: #eef2ff !important;
+    color: #2563eb !important;
+    border: 1px solid #c7d2fe !important;
+}
+
+.btn-view-toggle:hover:not(.active) {
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+}
+
+/* Dark Mode Support */
+[data-bs-theme="dark"] .btn-view-toggle {
+    background-color: #1e1e2d;
+    border-color: #2d2d3e;
+}
+
+[data-bs-theme="dark"] .btn-view-toggle.active {
+    background-color: rgba(37, 99, 235, 0.2) !important;
+    border-color: rgba(37, 99, 235, 0.4) !important;
+}
+
+[data-bs-theme="dark"] .btn-action-custom {
+    background-color: #1e1e2d !important;
+    border-color: #2d2d3e !important;
+}
